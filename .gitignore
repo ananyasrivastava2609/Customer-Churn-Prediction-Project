@@ -1,0 +1,15 @@
+venv/
+env/
+Lib/
+Scripts/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.exe
+*.log
+.ipynb_checkpoints/
+.dist/
+logs/
+pytest-cache-files-*
