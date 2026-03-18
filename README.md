@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Early Customer Churn Risk Detection and Explanation System
 
 Academic prototype for churn prediction (tabular), ticket NLP analysis, decision engine, and generative AI explanation with Streamlit dashboard.
@@ -120,3 +121,6 @@ churn_project/
 ## Reproducibility
 
 - Random seed `42` is used for numpy, random, sklearn, and TensorFlow throughout the project.
+=======
+# Customer-Churn-Prediction-Project
+>>>>>>> 9a062aafe103f931fcc39693bd8ce6e6f993211b
