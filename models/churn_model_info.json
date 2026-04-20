@@ -1,0 +1,40 @@
+{
+  "model_name": "RandomForest",
+  "hyperparameters": {},
+  "validation_scores": {
+    "accuracy": 0.9876,
+    "precision": 0.9989276139410188,
+    "recall": 0.9793236376379885,
+    "f1": 0.9890284905326491,
+    "roc_auc": 0.9962499414799525,
+    "pr_auc": 0.9968628029529468
+  },
+  "selected_features": [
+    "age",
+    "tenure_months",
+    "monthly_usage_hours",
+    "support_calls",
+    "payment_delay_days",
+    "contract_length_months",
+    "total_spend",
+    "gender_Male",
+    "subscription_type_Premium",
+    "subscription_type_Standard"
+  ],
+  "scaler_path": "models/scaler.pkl",
+  "feature_importances": {
+    "age": 0.1524244560517054,
+    "tenure_months": 0.017573669855573223,
+    "monthly_usage_hours": 0.011657934363445149,
+    "support_calls": 0.30258909750943547,
+    "payment_delay_days": 0.13606954430969026,
+    "contract_length_months": 0.12998878370485162,
+    "total_spend": 0.23486072432625454,
+    "gender_Male": 0.01085596228454905,
+    "subscription_type_Premium": 0.0022915800751413347,
+    "subscription_type_Standard": 0.0016882475193540439
+  },
+  "training_date": "2026-04-10T11:30:55.339515Z",
+  "version": "1.0",
+  "random_seed": 42
+}
