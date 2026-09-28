@@ -9,11 +9,11 @@ This project provides an end-to-end system for identifying customers who may be 
 The system combines:
 
 * Customer churn data preprocessing and feature transformation
-* Multiple machine learning models for churn prediction
-* Customer-support ticket NLP analysis
+* Multiple machine learning models (XGBoost, Gradient boosting, Random forest, Stacking classifier, ANN/Keras, Decision Tree, KNN, Gaussian Naive Bayes, Logistic Regression ) for churn prediction
+* Customer-support ticket NLP analysis (TF-IDF (unigram + bigram), Logistic Regression / MultinomialNB)
 * A rule-based decision engine for risk assessment
 * Feature importance and key-signal visualization
-* Generative AI-based explanations with a deterministic fallback
+* Generative AI-based (OpenAI GPT-3.5-turbo) explanations with a deterministic fallback
 * An interactive Streamlit dashboard
 
 ### How It Works
@@ -27,6 +27,14 @@ The user can upload a churn dataset through the dashboard and run the analysis. 
 Support-ticket information can provide additional context about customer issues and ticket priority. The decision engine combines the relevant risk and ticket information to produce a response category.
 
 The dashboard then presents the prediction, important signals, model information, and a human-readable explanation. If an OpenAI API key is unavailable, the application uses a rule-based fallback so that the explanation component can still operate without an API call.
+
+  ## Datasets
+
+| Dataset         | Source                                                                                                                   |                          Size |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------: |
+| Customer Churn  | [muhammadshahidazeem/customer-churn-dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset) | 442,212 records · 12 features |
+| Support Tickets | [suraj520/customer-support-ticket-dataset](https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset)     |                 8,469 tickets |
+
 
 ## Dashboard
 
